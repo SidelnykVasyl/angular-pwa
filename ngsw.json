@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1688481597317,
+  "timestamp": 1688483451678,
   "index": "https://SidelnykVasyl.github.io/angular-pwa/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://SidelnykVasyl.github.io/angular-pwa/favicon.ico",
         "https://SidelnykVasyl.github.io/angular-pwa/index.html",
-        "https://SidelnykVasyl.github.io/angular-pwa/main.e8c08bf01781ccb0.js",
+        "https://SidelnykVasyl.github.io/angular-pwa/main.f2ea3ca245fcd27d.js",
         "https://SidelnykVasyl.github.io/angular-pwa/manifest.webmanifest",
         "https://SidelnykVasyl.github.io/angular-pwa/polyfills.e03db229fb061cd2.js",
         "https://SidelnykVasyl.github.io/angular-pwa/runtime.080825e25f44479b.js",
@@ -57,8 +57,8 @@
     "https://SidelnykVasyl.github.io/angular-pwa/bootstrap-icons.02685dabe0850e40.woff2": "4c0efcf1dccc7295efc26fabe81ffe8f28d594a3",
     "https://SidelnykVasyl.github.io/angular-pwa/bootstrap-icons.8463cb1e163733b5.woff": "d598cc620458b22d80443cdd69100217316efaf3",
     "https://SidelnykVasyl.github.io/angular-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://SidelnykVasyl.github.io/angular-pwa/index.html": "b8638d642f10a6299a95df62a51d5f9260b64f35",
-    "https://SidelnykVasyl.github.io/angular-pwa/main.e8c08bf01781ccb0.js": "f4cbc5c63d027830a6cc8e8131e592a5c9df8e28",
+    "https://SidelnykVasyl.github.io/angular-pwa/index.html": "b1161b9dcf2f26d2c3f8982a23266112ecdfd8d1",
+    "https://SidelnykVasyl.github.io/angular-pwa/main.f2ea3ca245fcd27d.js": "92d54fe07d360e40008f4b8c9867825cb8413bd1",
     "https://SidelnykVasyl.github.io/angular-pwa/manifest.webmanifest": "647db4fba4be264d65d1cbc9d3c6606d05610dcf",
     "https://SidelnykVasyl.github.io/angular-pwa/polyfills.e03db229fb061cd2.js": "5aa270eea610cc467bf4c4815de5496af5ad25e4",
     "https://SidelnykVasyl.github.io/angular-pwa/runtime.080825e25f44479b.js": "a654f83c4394d600fdf21c3eb5fe9400bac347c2",
