@@ -26,5 +26,23 @@
         ]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name": "json-api",
+      "urls": [
+        "https://jsonplaceholder.typicode.com/users/**",
+        "https://api.chucknorris.io/jokes/random",
+        "https://fae9-195-211-86-50.ngrok-free.app/users/**"
+      ],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "maxSize": 100,
+        "maxAge": "1h",
+        "timeout": "5s"
+      }
+
+    }
   ]
+
 }

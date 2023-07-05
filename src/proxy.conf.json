@@ -1,0 +1,6 @@
+{
+  "/api": {
+  "target": "https://7465-195-211-86-50.ngrok-free.app/users/**",
+  "secure": false
+  }
+  }

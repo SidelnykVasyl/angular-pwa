@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Platform } from '@angular/cdk/platform';
 import { SwUpdate, VersionReadyEvent } from '@angular/service-worker';
 import { filter, map } from 'rxjs/operators';
+import { DataService } from './data.service';
+import { User } from './interfaces/user.interface';
 
 @Component({
   selector: 'app-root',
@@ -9,14 +11,19 @@ import { filter, map } from 'rxjs/operators';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-
+  userId: number | undefined;
   isOnline: boolean;
   modalVersion: boolean;
   modalPwaEvent: any;
   modalPwaPlatform: string|undefined;
+  user: User | undefined | null;
+  userError: any;
 
-  constructor(private platform: Platform,
-              private swUpdate: SwUpdate) {
+  constructor(
+    private platform: Platform,
+    private swUpdate: SwUpdate,
+    private data: DataService
+    ) {
     this.isOnline = false;
     this.modalVersion = false;
   }
@@ -38,6 +45,16 @@ export class AppComponent implements OnInit {
     }
 
     this.loadModalPwa();
+  }
+
+  public getUser(id: number | undefined): void {
+    this.data.getUser(id).subscribe((user: any) => {
+      this.user = user;
+      this.userError = null;
+    }, err => {
+      this.userError = err;
+      this.user = null;
+    })
   }
 
   private updateOnlineStatus(): void {
