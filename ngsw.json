@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1688555114777,
+  "timestamp": 1688555311911,
   "index": "https://SidelnykVasyl.github.io/angular-pwa/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://SidelnykVasyl.github.io/angular-pwa/favicon.ico",
         "https://SidelnykVasyl.github.io/angular-pwa/index.html",
-        "https://SidelnykVasyl.github.io/angular-pwa/main.69b84541b3314f7b.js",
+        "https://SidelnykVasyl.github.io/angular-pwa/main.969c886be2a6f144.js",
         "https://SidelnykVasyl.github.io/angular-pwa/manifest.webmanifest",
         "https://SidelnykVasyl.github.io/angular-pwa/polyfills.e03db229fb061cd2.js",
         "https://SidelnykVasyl.github.io/angular-pwa/runtime.080825e25f44479b.js",
@@ -50,7 +50,7 @@
       "patterns": [
         "https:\\/\\/jsonplaceholder\\.typicode\\.com\\/users\\/.*",
         "https:\\/\\/api\\.chucknorris\\.io\\/jokes\\/random",
-        "http:\\/\\/localhost:3000"
+        "http:\\/\\/localhost:3000\\/users\\/.*"
       ],
       "strategy": "freshness",
       "maxSize": 20,
@@ -74,8 +74,8 @@
     "https://SidelnykVasyl.github.io/angular-pwa/bootstrap-icons.02685dabe0850e40.woff2": "4c0efcf1dccc7295efc26fabe81ffe8f28d594a3",
     "https://SidelnykVasyl.github.io/angular-pwa/bootstrap-icons.8463cb1e163733b5.woff": "d598cc620458b22d80443cdd69100217316efaf3",
     "https://SidelnykVasyl.github.io/angular-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://SidelnykVasyl.github.io/angular-pwa/index.html": "d5563228e5c497b48d144a54f39cac4f907f6dd9",
-    "https://SidelnykVasyl.github.io/angular-pwa/main.69b84541b3314f7b.js": "d74ec3d44edcde15eac1ef6d4396084ffc912099",
+    "https://SidelnykVasyl.github.io/angular-pwa/index.html": "b9a6b138be18232fc2e82c761fcdd02408bd1b49",
+    "https://SidelnykVasyl.github.io/angular-pwa/main.969c886be2a6f144.js": "19f327e78040db2b759e45f02deb37470fda0d43",
     "https://SidelnykVasyl.github.io/angular-pwa/manifest.webmanifest": "647db4fba4be264d65d1cbc9d3c6606d05610dcf",
     "https://SidelnykVasyl.github.io/angular-pwa/polyfills.e03db229fb061cd2.js": "5aa270eea610cc467bf4c4815de5496af5ad25e4",
     "https://SidelnykVasyl.github.io/angular-pwa/runtime.080825e25f44479b.js": "a654f83c4394d600fdf21c3eb5fe9400bac347c2",
