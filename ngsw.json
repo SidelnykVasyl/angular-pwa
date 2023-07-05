@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1688546269495,
+  "timestamp": 1688546530388,
   "index": "https://SidelnykVasyl.github.io/angular-pwa/index.html",
   "assetGroups": [
     {
@@ -48,7 +48,7 @@
     {
       "name": "json-api",
       "patterns": [
-        "\\/users\\/.*"
+        "https:\\/\\/jsonplaceholder\\.typicode\\.com\\/users\\/.*"
       ],
       "strategy": "freshness",
       "maxSize": 20,
