@@ -1,17 +1,21 @@
-interface Mission {
-  startDate: string;
-  endDate: string;
+export interface Mission {
+  id: number;
+  functionalId: string;
   qualification: string;
-  status: string;
-  contractSigned: string;
+  expectedStartDate: string;
+  expectedEndDate: string;
+  acceptanceStatus: string;
+  contractSigned: boolean;
 }
 
 export interface User {
-  id?: number;
-  functionalId: number;
-  osmoseId: number;
-  pixidId: number;
-  firstName: string;
-  lastName: string;
+  id: string;
+  talent: {
+    functionalId: string;
+    pixidId: string;
+    osmoseId: string;
+    firstName: string;
+    lastName: string;
+  };
   missions: Mission[];
 }

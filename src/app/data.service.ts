@@ -8,7 +8,7 @@ import { User } from './interfaces/user.interface';
 })
 export class DataService {
   private readonly cacheName = 'json-api';
-  private url = 'https://fae9-195-211-86-50.ngrok-free.app'
+  private url = 'https://92f6-45-12-24-207.ngrok-free.app'
 
   constructor(
     private http: HttpClient
@@ -17,6 +17,8 @@ export class DataService {
 
   getUser(id: any): Observable<User> {
     const headers = new HttpHeaders()
+    .set('X-Api-Key', 'developperkey')
+    .set('Accept', 'application/json')
     .set('ngrok-skip-browser-warning', 'any')
     return this.http.get<User>(`${this.url}/users/${id}`, {headers})
   }

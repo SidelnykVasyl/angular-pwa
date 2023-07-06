@@ -49,6 +49,8 @@ export class AppComponent implements OnInit {
 
   public getUser(id: number | undefined): void {
     this.data.getUser(id).subscribe((user: any) => {
+      console.log(user);
+
       this.user = user;
       this.userError = null;
     }, err => {

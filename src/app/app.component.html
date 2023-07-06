@@ -1,10 +1,14 @@
 <div class="container-fluid py-3">
-  <div class="d-flex justify-content-center">
+  <div class="container mb-3">
+    <img src="../assets/icons/icon-72x72.png" alt="">
+  </div>
+  <div class="w-50 m-auto d-flex justify-content-center">
     <input
+      class="form-control"
       (keyup.enter)="getUser(userId)"
       [(ngModel)]="userId"
       type="text"
-      placeholder="functional id"
+      placeholder="Functional ID"
     />
     <button class="btn btn-primary" (click)="getUser(userId)" type="submit">
       Find Talent
@@ -13,19 +17,19 @@
 
 
   <ng-container *ngIf="user">
-    <div class="user container mt-3">
-      <h3>{{ user.firstName}} {{user.lastName}}</h3>
+    <div class="user container mt-5">
+      <h3>{{ user.talent.firstName}} {{user.talent.lastName}}</h3>
       <div>
         <span class="f-bold d-inline-block user__label">Functional ID: </span>
-        <span>{{ user.functionalId }}</span>
+        <span>{{ user.talent.functionalId }}</span>
       </div>
       <div>
         <span class="f-bold d-inline-block user__label">Pixid ID: </span>
-        <span>{{ user.pixidId }}</span>
+        <span>{{ user.talent.pixidId }}</span>
       </div>
       <div>
         <span class="f-bold d-inline-block user__label">Osmose ID: </span>
-        <span>{{ user.osmoseId }}</span>
+        <span>{{ user.talent.osmoseId }}</span>
       </div>
 
       <table class="table table-striped mt-5" *ngIf="user.missions; else noMission">
@@ -40,10 +44,10 @@
         </thead>
         <tbody>
           <tr *ngFor="let mission of user.missions">
-            <td>{{ mission.startDate }}</td>
-            <td>{{ mission.endDate }}</td>
+            <td>{{ mission.expectedStartDate | date}}</td>
+            <td>{{ mission.expectedEndDate | date}}</td>
             <td>{{ mission.qualification }}</td>
-            <td>{{ mission.status }}</td>
+            <td>{{ mission.acceptanceStatus }}</td>
             <td>{{ mission.contractSigned }}</td>
           </tr>
         </tbody>
@@ -51,7 +55,7 @@
     </div>
   </ng-container>
 
-  <ng-container class="container" *ngIf="userError">
+  <ng-container class="container mt-3" *ngIf="userError">
     <ng-container *ngTemplateOutlet="noUser"></ng-container>
   </ng-container>
 
@@ -65,10 +69,10 @@
 </div>
 
 <ng-template #noUser>
-  <span class="f-bold"> Talent not found </span>
+  <p class="container mt-3 f-bold"> Talent not found </p>
 </ng-template>
 <ng-template #noMission>
-  <span class="f-bold"> No missions found </span>
+  <p class="container mt-3 f-bold"> No missions found </p>
 </ng-template>
 
 <div class="w-100 position-absolute top-0" *ngIf="modalVersion">

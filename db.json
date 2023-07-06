@@ -1,100 +1,121 @@
 {
   "users": [
     {
-      "id": 1,
-      "functionalId": 8962,
-      "osmoseId": 8281,
-      "pixidId": 2929,
-      "firstName": "John",
-      "lastName": "Doe",
+      "id": "F9B63",
+      "talent": {
+        "functionalId": "F9B63",
+        "pixidId": "32167",
+        "osmoseId": "001-RIS-100500",
+        "firstName": "John",
+        "lastName": "Doe"
+      },
       "missions": [
         {
-          "startDate": "22/01/2023",
-          "endDate": "10/10/2023",
-          "qualification": "dssds",
-          "status": "in progress",
-          "contractSigned": "yes"
+          "id": 1,
+          "functionalId": "F9B65",
+          "qualification": "Agent de production",
+          "expectedStartDate": "2023-07-24T00:00:00",
+          "expectedEndDate": "2023-07-28T00:00:00",
+          "acceptanceStatus": "PENDING",
+          "contractSigned": true
         },
         {
-          "startDate": "08/01/2023",
-          "endDate": "01/10/2023",
-          "qualification": "dssds",
-          "status": "in progress",
-          "contractSigned": "yes"
+          "id": 2,
+          "functionalId": "F9B67",
+          "qualification": "Agent de production",
+          "expectedStartDate": "2023-07-24T00:00:00",
+          "expectedEndDate": "2023-07-28T00:00:00",
+          "acceptanceStatus": "PENDING",
+          "contractSigned": true
         },
         {
-          "startDate": "08/02/2023",
-          "endDate": "19/11/2023",
-          "qualification": "dssds",
-          "status": "in progress",
-          "contractSigned": "yes"
+          "id": 3,
+          "functionalId": "F9B66",
+          "qualification": "Agent de production",
+          "expectedStartDate": "2023-07-24T00:00:00",
+          "expectedEndDate": "2023-07-28T00:00:00",
+          "acceptanceStatus": "PENDING",
+          "contractSigned": true
         }
       ]
     },
     {
-      "id": 2,
-      "functionalId": 8962,
-      "osmoseId": 8281,
-      "pixidId": 2929,
-      "firstName": "John",
-      "lastName": "Doe",
+      "id": "F9B64",
+      "talent": {
+        "functionalId": "F9B64",
+        "pixidId": "32167",
+        "osmoseId": "001-RIS-100500",
+        "firstName": "John",
+        "lastName": "Doe"
+      },
       "missions": [
         {
-          "startDate": "22/01/2023",
-          "endDate": "10/10/2023",
-          "qualification": "dssds",
-          "status": "in progress",
-          "contractSigned": "yes"
+          "id": 2,
+          "qualification": "Agent de production",
+          "expectedStartDate": "2023-07-24T00:00:00",
+          "expectedEndDate": "2023-07-28T00:00:00",
+          "acceptanceStatus": "PENDING",
+          "contractSigned": true
         }
       ]
     },
     {
-      "functionalId": 8962,
-      "osmoseId": 8281,
-      "pixidId": 2929,
-      "firstName": "John",
-      "lastName": "Doe",
+      "id": "F9B65",
+      "talent": {
+        "functionalId": "F9B63",
+        "pixidId": "32167",
+        "osmoseId": "001-RIS-100500",
+        "firstName": "John",
+        "lastName": "Doe"
+      },
       "missions": [
         {
-          "startDate": "22/01/2023",
-          "endDate": "10/10/2023",
-          "qualification": "dssds",
-          "status": "in progress",
-          "contractSigned": "yes"
+          "id": 3,
+          "qualification": "Agent de production",
+          "expectedStartDate": "2023-07-24T00:00:00",
+          "expectedEndDate": "2023-07-28T00:00:00",
+          "acceptanceStatus": "PENDING",
+          "contractSigned": true
         }
       ]
     },
     {
-      "id": 3,
-      "functionalId": 8962,
-      "osmoseId": 8281,
-      "pixidId": 2929,
-      "firstName": "John",
-      "lastName": "Doe",
+      "id": "F9B66",
+      "talent": {
+        "functionalId": "F9B63",
+        "pixidId": "32167",
+        "osmoseId": "001-RIS-100500",
+        "firstName": "John",
+        "lastName": "Doe"
+      },
       "missions": [
         {
-          "startDate": "22/01/2023",
-          "endDate": "10/10/2023",
-          "qualification": "dssds",
-          "status": "in progress",
-          "contractSigned": "yes"
+          "id": 4,
+          "qualification": "Agent de production",
+          "expectedStartDate": "2023-07-24T00:00:00",
+          "expectedEndDate": "2023-07-28T00:00:00",
+          "acceptanceStatus": "PENDING",
+          "contractSigned": true
         }
       ]
     },
     {
-      "id": 4,
-      "functionalId": 8962,
-      "osmoseId": 8281,
-      "pixidId": 2929,
-      "firstName": "John",
-      "lastName": "Doe",
+      "id": "F9B67",
+      "talent": {
+        "functionalId": "F9B63",
+        "pixidId": "32167",
+        "osmoseId": "001-RIS-100500",
+        "firstName": "John",
+        "lastName": "Doe"
+      },
       "missions": [
         {
-          "startDate": "22/01/2023",
-          "endDate": "10/10/2023",
-          "qualification": "dssds",
-          "status": "in progress",
-          "contractSigned": "yes"
+          "id": 5,
+          "qualification": "Agent de production",
+          "expectedStartDate": "2023-07-24T00:00:00",
+          "expectedEndDate": "2023-07-28T00:00:00",
+          "acceptanceStatus": "PENDING",
+          "contractSigned": true
         }
       ]
     }
