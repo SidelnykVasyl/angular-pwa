@@ -5,7 +5,8 @@ self.addEventListener('fetch', (event) => {
 async function fetchAndUpdateCache(request) {
   const cache = await caches.open('https://92f6-45-12-24-207.ngrok-free.app/users');
   const cachedResponse = await cache.match(request);
-
+  console.log(cachedResponse, 'cachedResponse')
+  console.log(cachedResponse, 'cachedResponse')
   if (cachedResponse) {
     fetch(request)
       .then((response) => {
