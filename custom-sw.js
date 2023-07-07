@@ -3,7 +3,7 @@ self.addEventListener('fetch', (event) => {
 });
 
 async function fetchAndUpdateCache(request) {
-  const cache = await caches.open('user-api');
+  const cache = await caches.open('https://92f6-45-12-24-207.ngrok-free.app/users');
   const cachedResponse = await cache.match(request);
 
   if (cachedResponse) {
@@ -11,6 +11,7 @@ async function fetchAndUpdateCache(request) {
       .then((response) => {
         if (response.ok) {
           response.clone().json().then((data) => {
+            console.log(data);
             cachedResponse.json().then((cachedData) => {
               if (!isSameData(data, cachedData)) {
                 showNotification();
