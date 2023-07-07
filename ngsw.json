@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1688720709831,
+  "timestamp": 1688720871480,
   "index": "https://SidelnykVasyl.github.io/angular-pwa/index.html",
   "assetGroups": [
     {
@@ -50,7 +50,8 @@
       "patterns": [
         "https:\\/\\/jsonplaceholder\\.typicode\\.com\\/users\\/.*",
         "https:\\/\\/api\\.chucknorris\\.io\\/jokes\\/random",
-        "https:\\/\\/fae9-195-211-86-50\\.ngrok-free\\.app\\/users\\/.*"
+        "https:\\/\\/fae9-195-211-86-50\\.ngrok-free\\.app\\/users\\/.*",
+        "https:\\/\\/92f6-45-12-24-207\\.ngrok-free\\.app\\/users\\/.*"
       ],
       "strategy": "freshness",
       "maxSize": 100,
